@@ -8,7 +8,7 @@ public class TimeCalculatorTest {
     @Test
     public void testCalculateTimeNormalCase() {
         TimeCalculator calculator = new TimeCalculator();
-        assertEquals(2.0, calculator.calculateTime(100, 50));
+        assertEquals(2.0, calculator.calculateTime(100.0, 50.0), 0.0001);
     }
 
     @Test
